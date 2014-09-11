@@ -1,0 +1,17 @@
+#gplus_footer, #gplus_product  {
+    width: 18%;
+    float: left 
+}
+
+ #gplus_product { width: 20% }
+
+#gplus_product ul { list-style-type: none }
+
+#gplus_footer ul li, #gplus_product ul li {
+    float: left;
+    margin: 5px
+}
+
+@media only screen and (max-width:997px){
+    #gplus_footer, #gplus_product { width: 100% }
+}
